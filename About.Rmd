@@ -1,0 +1,22 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+## Author
+
+- **Name:** Mauro Canchola Jr
+- **Email:** mcanc2@illinois.edu
+
+## Purpose
+
+The purpose of this is to solve one of the main questions that is asked of this university, does it serve the people of the state? To see if it serves the people of the state of Illinois, we can look at how it serves people of other states, or unknown locations, etc., compared to how it serves the people of Illinois, through the amount of people who are attending, by year, and their academic level. So, we can check a certain state, year, and level, and see how many people were admitted, and through this we can somewhat determine if that is a fair amount, and if Illinois is indeed serving the people of it's state adequately, by looking at the visualization.
+
+## Data
+
+The original data is quite simple, it's simply a few columns of State, Year, Undergrad, Professional, Grad, and Total. Most of the column names are self-explanatory, however Total is the combined sum of the three columns before it. Some data is not included such as there will be NA in certain sections without much explanation or certain data will not be collected until or after a certain point, such as for Guam or Other US.
+
+## References
+
+- https://stackoverflow.com/questions/55948425/why-is-scale-y-continuous-not-working-here-no-error-message-given
+- [wadefagen's Useful Datasets](https://github.com/wadefagen/datasets/tree/main/students-by-state)
